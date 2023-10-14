@@ -80,6 +80,9 @@ dependencies {
     // Optional - Integration with LiveData
     implementation("androidx.compose.runtime:runtime-livedata")
 
+    // Extended Material Icons
+    implementation("androidx.compose.material:material-icons-extended:1.5.3")
+
     // Navigation
     //noinspection GradleDependency
     implementation("androidx.navigation:navigation-compose:2.6.0")

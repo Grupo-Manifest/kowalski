@@ -10,10 +10,12 @@ import androidx.compose.material.icons.filled.QrCode
 import androidx.compose.material.icons.outlined.DirectionsCar
 import androidx.compose.material.icons.outlined.Place
 import androidx.compose.material.icons.outlined.QrCode
+import dagger.hilt.android.AndroidEntryPoint
 import ecb.manifest.kowalski.main.ui.navigation.DrawerNavigationItem
 import ecb.manifest.kowalski.main.ui.theme.ManifestKowalskiTheme
 import ecb.manifest.kowalski.main.ui.navigation.DrawerNavigationMenu
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

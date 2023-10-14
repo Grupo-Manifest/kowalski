@@ -1,4 +1,4 @@
-package ecb.manifest.kowalski.main.ui.navigation
+package ecb.manifest.kowalski.main.ui.drawer_menu
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

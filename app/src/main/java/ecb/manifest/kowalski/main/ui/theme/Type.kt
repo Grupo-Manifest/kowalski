@@ -1,4 +1,4 @@
-package ecb.manifest.kowalski.ui.theme
+package ecb.manifest.kowalski.main.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

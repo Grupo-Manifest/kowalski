@@ -1,4 +1,4 @@
-package ecb.manifest.kowalski.ui.navigation
+package ecb.manifest.kowalski.main.ui.navigation
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Spacer

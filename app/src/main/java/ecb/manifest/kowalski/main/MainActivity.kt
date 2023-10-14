@@ -1,4 +1,4 @@
-package ecb.manifest.kowalski
+package ecb.manifest.kowalski.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,9 +10,9 @@ import androidx.compose.material.icons.filled.QrCode
 import androidx.compose.material.icons.outlined.DirectionsCar
 import androidx.compose.material.icons.outlined.Place
 import androidx.compose.material.icons.outlined.QrCode
-import ecb.manifest.kowalski.ui.navigation.DrawerNavigationItem
-import ecb.manifest.kowalski.ui.theme.ManifestKowalskiTheme
-import ecb.manifest.kowalski.ui.navigation.DrawerNavigationMenu
+import ecb.manifest.kowalski.main.ui.navigation.DrawerNavigationItem
+import ecb.manifest.kowalski.main.ui.theme.ManifestKowalskiTheme
+import ecb.manifest.kowalski.main.ui.navigation.DrawerNavigationMenu
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

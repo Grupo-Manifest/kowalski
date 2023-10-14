@@ -12,12 +12,12 @@ import ecb.manifest.kowalski.rating.ui.viewModels.ReviewViewModel
 @Composable
 fun RatingNavigation() {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = "main_screen") {
-        composable(Screen.MainScreen.route) {
+    NavHost(navController = navController, startDestination = "rating_main_screen") {
+        composable(RatingScreen.RatingMainScreen.route) {
             val viewModel = hiltViewModel<ReviewViewModel>()
             RatingMainScreen(viewModel, navController)
         }
-        composable(Screen.ReviewScreen.route) {
+        composable(RatingScreen.ReviewScreen.route) {
             val viewModel = hiltViewModel<ReviewViewModel>()
             ReviewScreen(viewModel, navController)
         }

@@ -25,7 +25,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import ecb.manifest.kowalski.rating.events.ReviewEvent
-import ecb.manifest.kowalski.rating.ui.navigation.Screen
+import ecb.manifest.kowalski.rating.ui.navigation.RatingScreen
 import ecb.manifest.kowalski.rating.ui.presentation.map.MapScreen
 import ecb.manifest.kowalski.rating.ui.presentation.review.AddReviewDialog
 import ecb.manifest.kowalski.rating.ui.theme.OrangeShell
@@ -92,7 +92,7 @@ fun RatingMainScreen(
                         colors = ButtonDefaults.buttonColors(PurpleShell),
 
                         onClick = {
-                            navController.navigate(Screen.ReviewScreen.route)
+                            navController.navigate(RatingScreen.ReviewScreen.route)
                         }
                     ) {
                         Text(text = "Lista")

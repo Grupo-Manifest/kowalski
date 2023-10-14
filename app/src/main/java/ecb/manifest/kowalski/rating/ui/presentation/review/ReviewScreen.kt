@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import ecb.manifest.kowalski.rating.events.ReviewEvent
-import ecb.manifest.kowalski.rating.ui.navigation.Screen
+import ecb.manifest.kowalski.rating.ui.navigation.RatingScreen
 import ecb.manifest.kowalski.rating.ui.theme.PurpleShell
 import ecb.manifest.kowalski.rating.ui.viewModels.ReviewViewModel
 
@@ -46,7 +46,7 @@ fun ReviewScreen(
                 contentColor = Color.White,
                 containerColor = PurpleShell,
                 onClick = {
-                navController.navigate(Screen.MainScreen.route)
+                navController.navigate(RatingScreen.RatingMainScreen.route)
             }) {
                 Icon(
                     imageVector = Icons.Default.ArrowBack,

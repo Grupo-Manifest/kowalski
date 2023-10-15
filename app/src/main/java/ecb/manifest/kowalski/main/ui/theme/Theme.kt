@@ -1,4 +1,4 @@
-package ecb.manifest.kowalski.ui.theme
+package ecb.manifest.kowalski.main.ui.theme
 
 import android.app.Activity
 import android.os.Build
